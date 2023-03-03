@@ -12,5 +12,5 @@ export default function App() {
 	}, [])
 
   console.log(dog)
-	return <>{loading ? <p>Loading...</p> : <img src={dog} alt='random dog' />}</>
+	return <>{loading ? <p>Loading...</p> : <img src={dog} alt='A Random Dog' />}</>
 }
